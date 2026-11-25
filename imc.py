@@ -1,3 +1,4 @@
+
 print("===== CALCULADORA DE IMC =====")
 
 nome = input("Digite seu nome: ")
@@ -10,10 +11,13 @@ print(f"\nOlá, {nome}!")
 print(f"Seu IMC é: {imc:.2f}")
 
 if imc < 18.5:
-    print("Abaixo do peso")
+    print("Classificação: Abaixo do peso")
 elif imc < 25:
-    print("Peso adequado")
+    print("Classificação: Peso adequado")
 elif imc < 30:
-    print("Sobrepeso")
+    print("Classificação: Sobrepeso")
 else:
-    print("Obesidade")
+    print("Classificação: Obesidade")
+
+print(f"\n{nome}, obrigado por utilizar nossa calculadora!")
+print("===== FIM DO PROGRAMA =====")
